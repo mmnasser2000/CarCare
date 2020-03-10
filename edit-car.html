@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Cars</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style type="text/css">
+    .header {
+      color:#3c9d9b; 
+      font-size: 72px;
+    }
+    .row {
+      height: 120px; 
+    }
+    a {
+      color: inherit;
+    }
+    a:link {
+     text-decoration:none;
+    }
+    a:hover {
+     color:inherit;
+    }
+    div#done {
+     background-color: #394a6d;
+     text-align: center;
+    }
+    h2#done {
+     font-size: 40px;
+     color: #f45905; 
+    }
+    h2 {
+      font-size: 24px; 
+      display: inline-block;
+      color:#394a6d;
+    }
+    input {
+      width: auto;
+      margin: 5px;
+      display: inline-block;
+      width: 100%;
+      background: transparent;
+      border: none;
+    }
+    div#delete {
+     background-color: red;
+     text-align: center;
+    }
+    h2#delete {
+     font-size: 40px;
+     color: #394a6d; 
+    }
+
+    </style>
+</head>
+<body>
+
+<div style="background-color:#394a6d" class="jumbotron text-center">
+  <h1 class=header>Edit Car</h1>
+</div>
+  
+<div style="background-color:#c0ffb3" class="container">
+    <div class="row">
+          <div class="col-2" style="margin: auto;">
+            <h2>Name: </h2>
+          </div>
+          <div class="col" style="margin: auto;">
+            <input type="text" name="name">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-2" style="margin: auto;">
+            <h2>Make: </h2>
+          </div>
+          <div class="col" style="margin: auto;">
+            <input type="text" name="make">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-2" style="margin: auto;">
+            <h2>Model: </h2>
+          </div>
+          <div class="col" style="margin: auto;">
+            <input type="text" name="model">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-2" style="margin: auto;">
+            <h2>Year: </h2>
+          </div>
+          <div class="col" style="margin: auto;">
+            <input type="text" name="year">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-4" style="margin: auto;">
+            <h2>Last Yearly Inspection: </h2>
+          </div>
+          <div class="col" style="margin: auto;">
+            <input type="text" name="inspection">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-2" style="margin: auto;">
+            <h2>Last Oil Change: </h2>
+          </div>
+          <div class="col" style="margin: auto;">
+            <input type="text" name="oil">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-2" style="margin: auto;">
+            <h2>Last Coolant Check: </h2>
+          </div>
+          <div class="col" style="margin: auto;">
+            <input type="text" name="coolant">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-4" style="margin: auto;">
+            <h2>Last Tire Pressure Check: </h2>
+          </div>
+          <div class="col" style="margin: auto;">
+            <input type="text" name="tire_pressure">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-2" style="margin: auto;">
+            <h2>Last Tire Tread Check: </h2>
+          </div>
+          <div class="col" style="margin: auto;">
+            <input type="text" name="tire_tread">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-2" style="margin: auto;">
+            <h2>Last Air Filter Check: </h2>
+          </div>
+          <div class="col" style="margin: auto;">
+            <input type="text" name="air_filter">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-2" style="margin: auto;">
+            <h2>Last Tire Rotation: </h2>
+          </div>
+          <div class="col" style="margin: auto;">
+            <input type="text" name="tire_rotation">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-2" style="margin: auto;">
+            <h2>Last Battery Check: </h2>
+          </div>
+          <div class="col" style="margin: auto;">
+            <input type="text" name="battery">
+          </div>
+        </div>
+
+  <a href="car.html">
+    <div class="row"  id="done">
+      <div class="col" style="margin: auto;">
+        <h2 id="done">Done</h2>
+      </div>
+    </div>
+  </a>
+  <a href="index.html">
+    <div class="row" id="delete">
+      <div class="col" style="margin: auto;">
+        <h2 id="delete">Delete</h2>
+      </div>
+    </div>
+  </a>
+
+</body>
+</html>
